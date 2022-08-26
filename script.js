@@ -65,8 +65,7 @@ function isSorted(array) {
 
     if (newArray.join('') == foo(newArray)) {
         return true
-    }
-    else {
+    } else {
         return false
     }
 }
