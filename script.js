@@ -1,7 +1,20 @@
 /////////// task 1
-function isPrime() {
+function isPrime(n) {
+    for (let i = 2; i < n; j++) {
+        if (n % i == 0) {
+            return false
+        }
 
+        else {
+            return true
+        }
+    }
+    return n > 1
 }
+console.log('solution of task 1: ' + isPrime(0))
+console.log('solution of task 1: ' + isPrime(1))
+console.log('solution of task 1: ' + isPrime(17))
+console.log('solution of task 1: ' + isPrime(10000000000000))
 /////////// task 1
 
 
@@ -106,10 +119,10 @@ function isPalidrom(str) {
         return false
     }
 }
-console.log('solution of task 6: ' + isPalidrom(''))
-console.log('solution of task 6: ' + isPalidrom('abcdcba'))
-console.log('solution of task 6: ' + isPalidrom('abcd'))
-console.log('solution of task 6: ' + isPalidrom('A man a plan a canal Panama'))
+console.log('solution of task 7: ' + isPalidrom(''))
+console.log('solution of task 7: ' + isPalidrom('abcdcba'))
+console.log('solution of task 7: ' + isPalidrom('abcd'))
+console.log('solution of task 7: ' + isPalidrom('A man a plan a canal Panama'))
 /////////////////////
 
 
